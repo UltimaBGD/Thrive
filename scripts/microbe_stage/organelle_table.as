@@ -217,7 +217,7 @@ class OrganelleParameters{
         this.name = "invalid";
     }
 
-    OrganelleParameters(const OrganelleType &in type){
+    OrganelleParameters(const OrganelleType@ type){
         this.name = type.name;
         this.gene = type.gene;
         this.mesh = type.mesh;
